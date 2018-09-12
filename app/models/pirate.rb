@@ -1,2 +1,3 @@
 class Pirate
+  
 end
