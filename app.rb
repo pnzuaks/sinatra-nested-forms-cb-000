@@ -1,4 +1,5 @@
 require './environment'
+req
 
 module FormsLab
   class App < Sinatra::Base
@@ -19,7 +20,7 @@ module FormsLab
     end
 
     @ships = Ship.all
-
     erb :show
+  end
   end
 end
