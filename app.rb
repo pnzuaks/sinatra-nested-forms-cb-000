@@ -16,7 +16,7 @@ module FormsLab
 
     @ships = Ship.all
 
-    erb :student
+    erb :show
   end
   end
 end
