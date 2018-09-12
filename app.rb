@@ -1,5 +1,5 @@
 require './environment'
-req
+require relative ''
 
 module FormsLab
   class App < Sinatra::Base
