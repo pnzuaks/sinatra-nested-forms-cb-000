@@ -1,5 +1,5 @@
 require './environment'
-require relative ''
+require relative ''models/text_analyzer.rb''
 
 module FormsLab
   class App < Sinatra::Base
