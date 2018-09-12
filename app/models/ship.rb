@@ -1,15 +1,19 @@
 class Ship
   attr_reader :name, :topic
 
-  COURSES = []
+  SHIPS = []
 
   def initialize(args)
     @name = args[:name]
     @topic = args[:topic]
-    COURSES << self
+    SHIPS << self
   end
 
   def self.all
-    COURSES
+    SHIPS
+  end
+
+  def self.clear
+    SHIPS.clear
   end
 end
