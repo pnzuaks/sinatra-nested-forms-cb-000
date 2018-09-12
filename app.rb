@@ -1,6 +1,6 @@
 require './environment'
 require_relative 'models/pirate.rb'
-require_relative './app/models/ship.rb'
+require_relative 'models/ship.rb'
 
 
 module FormsLab
