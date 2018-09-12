@@ -6,7 +6,13 @@
   </div><br>
 
 <h2>Display your first ship here</h2>
-
+<h1>Ships</h1>
+<% @ships.each do |ship| %>
+  <div class="ship">
+    <p>Name: <%= course.name %></p><br>
+    <p>Topic: <%= course.topic %></p><br>
+  </div><br>
+<% end %>
   <div class="ship">
   <h3>Name: <%= @ship.name %></h3><br>
   <h4>Type: <%= @ship.weight %></h4>
